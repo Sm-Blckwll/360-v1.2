@@ -51,7 +51,7 @@ $(document).on('touchend', function (event) {
     if (event.touches.length < 2) {
         initialPinchDistance = null;
         initialFov = null;
-        var cameraEl = $('#camera')[0];
+        
         cameraEl.setAttribute('look-controls', 'enabled', true);
     }
 });
